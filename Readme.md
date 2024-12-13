@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Константин  Новиков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2599341).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
