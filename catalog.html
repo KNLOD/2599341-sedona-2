@@ -6,7 +6,7 @@
   </head>
   <body>
 
-    <header class="page-header">
+    <header data-test="header" class="page-header">
       <img class="logo" alt="Логотип Седона">
       <nav class="navigation">
         <ul class="navigation-list">
@@ -51,7 +51,7 @@
 
     </header>
 
-    <main class="main-inner">
+    <main data-test="catalog" class="main-inner">
       <h1 class="header-catalog">Гостиницы Седоны</h1>
       <nav class="pages-navigation">
         <ul class="breadcrumbs">
@@ -67,7 +67,7 @@
           </li>
         </ul>
 
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <form data-test="catalog" class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура</legend>
 
@@ -249,7 +249,7 @@
     </main>
 
 
-    <footer class="page-footer">
+    <footer data-test="footer" class="page-footer">
 
       <form class="footer-subscription-form" action="https://echo.htmlacademy.ru/" method="post" >
         <h2 class="subscription-header">Подпишитесь на рассылку</h2>
