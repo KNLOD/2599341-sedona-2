@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Константин  Новиков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2599341).
-* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
+* Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
 * Сайт: [проект Седона](https://knlod.github.io/2599341-sedona-2/).
 
 ---
