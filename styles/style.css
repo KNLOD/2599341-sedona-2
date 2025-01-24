@@ -23,10 +23,6 @@ body {
   color: #000000;
 }
 
-.main-logo {
-  background-image: url("../images/sedona-logo.svg");
-  /*TODO - как правильно задавать размер декоративному изображению*/
-}
 
 .navigation li{
   list-style: none;
