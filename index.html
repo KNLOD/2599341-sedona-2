@@ -101,7 +101,7 @@
             <li class="advantage-primary">
               <div class="advantages-container">
                 <img class="block-img" src="images/advantages/photo-2.jpg" width="800" height="385" alt="Мост дьявола">
-                <div>
+                <div class="advantages-item">
                   <h3 class="header advantage-header">
                     Там есть мост дьявола</h3>
                   <p class="advantage-text">
@@ -154,10 +154,10 @@
       <section class="hotel-search-invite" data-test="search">
         <h2 class="header hotel-search-header">Заинтересовались?</h2>
         <p class="hotel-search-text">
-          Укажите предполагаемые даты поездки
+          Укажите предполагаемые даты поездки<br/>
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <a class="button button-primary" href="#">Поиск гостиницы в Седоне</a>
+        <a class="button button-primary search-link-button" href="#">Поиск гостиницы в Седоне</a>
       </section>
 
     </main>
@@ -173,9 +173,12 @@
           честное бойскаутское!
         </p>
 
-        <label class="visually-hidden" for="email">Email</label>
-        <input class="input subscription-email-field" id="email" name="email" type="email" placeholder="Ваш e-mail" required>
-        <button class="button button-secondary" type="submit">Подписаться</button>
+        <div class="subscription-container">
+
+          <label class="visually-hidden" for="email">Email</label>
+          <input class="input subscription-email-field" id="email" name="email" type="email" placeholder="Ваш e-mail" required>
+          <button class="button button-secondary subscription-button" type="submit">Подписаться</button>
+        </div>
       </form>
 
 

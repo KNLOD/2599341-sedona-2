@@ -18,6 +18,7 @@ html {
   height: 100%;
 }
 
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -78,6 +79,8 @@ body {
   width: 140;
   height: 70;
   margin-bottom: -6px;
+  position: relative;
+  z-index: 2;
 }
 
 .main-container {
@@ -143,6 +146,7 @@ body {
 
 .navigation-user-link {
   display: block;
+
   min-width: 44;
   height: 100%;
 }
@@ -158,17 +162,15 @@ body {
 }
 
 .button {
+  display: block;
   font-family: "PT Sans";
   font-size: 20px;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-
+  margin: 0 auto;
   border: none;
   border-radius: 4px;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 
 .button-primary {
@@ -222,7 +224,7 @@ body {
   font-size: 30px;
   line-height: 120%;
   text-transform: uppercase;
-  margin-bottom: 33px;
+  margin-bottom: 25px;
 }
 
 .hero-description {
@@ -244,13 +246,20 @@ body {
 }
 
 .advantage-header {
+  margin: 0 auto;
+  display: block;
   font-size: 24px;
   line-height: 117%;
   text-transform: uppercase;
+  width: 175px;
 }
 
 .advantage-text {
+  margin: 0 auto;
+  display: block;
   color: #333333;
+  width: 230px;
+  font-size: 18px;
 }
 
 
@@ -284,7 +293,7 @@ body {
   text-transform: uppercase;
   font-size: 30px;
   line-height: 36px;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
 }
 
 .sedona-invitation-text {
@@ -329,20 +338,33 @@ body {
 
 
 .hotel-search-invite {
+  margin: 0 auto;
   margin-bottom: 96px;
-
 }
 
 .hotel-search-header {
   text-transform: uppercase;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .hotel-search-text {
+  display: block;
   padding: 0;
-  margin: 0;
   color: #333333;
   font-size: 22px;
+  line-height: 26px;
+  width: 592px;
+  margin-bottom: 54px;
+
+}
+
+.search-link-button {
+  line-height: 36px;
+  width: 276px;
+  padding: 8px 50px;
+  margin: 0 auto;
+
 
 }
 
@@ -491,7 +513,7 @@ Catalog.html
   display: block;
   box-sizing: border-box;
   border: 1px solid #e6e6e6;
-  width: 298px;
+  width: 340px;
   border-radius: 4px;
   padding: 20px;
   margin-right: 20px;
@@ -577,14 +599,19 @@ Catalog.html
   font-size: 30px;
   line-height: 120%;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .subscription-text {
+  display: block;
+  margin: 0 auto;
   color: #333333;
   font-weight: 400;
   font-size: 22px;
   line-height: 118%;
   text-align: center;
+  width: 475px;
+  margin-bottom: 54px;
 }
 
 .subscription-main {
@@ -595,15 +622,34 @@ Catalog.html
   color: #ffffff;
 }
 
+
 .subscription-main p {
   color: #ffffff;
 }
 
+.subscription-container {
+  margin: 0 auto;
+  display: flex;
+  width: 684px;
+  height: 52px;
+
+}
+
 .subscription-email-field {
+  flex-grow: 1;
   border: none;
   border-radius: 4px;
   font-size: 18px;
   background-color: #f2f2f2;
+  padding-left: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.subscription-button {
+  width: 232px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 
